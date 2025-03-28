@@ -13,7 +13,17 @@ function App() {
           <Dictionary defaultKeyword="Sunrise" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Monica Gikaru</small>
+          <small>
+            {" "}
+            This project was coded by Monica Wangui and is {""}
+            <a
+              href="https://github.com/Monica-G30/react-weather-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open sourced on GitHub.
+            </a>
+          </small>
         </footer>
       </div>
     </div>
